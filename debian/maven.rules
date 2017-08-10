@@ -1,0 +1,2 @@
+com.github.wendykierp JTransforms jar s/.*/debian/ * *
+junit junit jar s/4\..*/4.x/ * *
