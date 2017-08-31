@@ -23,7 +23,8 @@ Homepage: https://sites.google.com/site/piotrwendykier/software/jtransforms
 
 Package: libjtransforms-java
 Architecture: all
-Depends: ${misc:Depends}, ${maven:Depends}
+Depends: ${misc:Depends}, ${java:Depends}, ${maven:Depends}
+Recommends: ${java:Recommends}
 Suggests: ${maven:OptionalDepends}, libjtransforms-java-doc
 Description: Java library for multithreaded FFT up to 3 dimensions
  JTransforms is a multithreaded FFT library written in pure
@@ -39,9 +40,8 @@ Description: Java library for multithreaded FFT up to 3 dimensions
 Package: libjtransforms-java-doc
 Architecture: all
 Section: doc
-Depends: ${misc:Depends}
-Recommends: ${maven:DocDepends}, ${maven:DocOptionalDepends}
-Suggests: libjtransforms-java
+Depends: ${misc:Depends}, ${maven:DocDepends}
+Suggests: ${maven:DocOptionalDepends}, libjtransforms-java
 Description: documentation of libjtransforms-java
  JTransforms is a multithreaded FFT library written in pure
  Java.
