@@ -1,5 +1,5 @@
-libjtransforms-java (3.1-1) UNRELEASED; urgency=medium
+libjtransforms-java (3.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #655420)
 
- -- Carnë Draug <carandraug+dev@gmail.com>  Fri, 28 Jul 2017 16:53:35 +0100
+ -- Carnë Draug <carandraug+dev@gmail.com>  Fri, 08 Sep 2017 16:58:34 +0100
