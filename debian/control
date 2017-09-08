@@ -16,7 +16,7 @@ Build-Depends-Indep: default-jdk-doc,
  libmaven-javadoc-plugin-java,
  libmaven-shade-plugin-java,
  maven-debian-helper (>= 2.1)
-Standards-Version: 4.0.0
+Standards-Version: 4.1.0
 Vcs-Git: https://anonscm.debian.org/git/pkg-java/libjtransforms-java.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/libjtransforms-java.git
 Homepage: https://sites.google.com/site/piotrwendykier/software/jtransforms
